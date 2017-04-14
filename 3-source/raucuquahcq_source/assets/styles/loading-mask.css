@@ -1,0 +1,29 @@
+﻿
+/* loading
+-------------------------------------------------------------*/
+.loading
+{
+    background-image: url( '../images/loading.gif' );
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    z-index: 999999;
+    width: 300px;
+    height: 300px;
+    display: none;
+    background-attachment: scroll;
+}
+
+#loading_mask
+{
+    position: fixed; /* important */
+    top: 0px; /* start from top */
+    left: 0px; /* start from left */
+    height: 100%; /* cover the whole page */
+    width: 100%; /* cover the whole page */
+    display: none; /* don't show it '*/ /* styling bellow */
+    background-color: #000;
+    z-index: 999998;
+}
+/* End loading
+-------------------------------------------------------------*/
